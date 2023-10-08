@@ -8,9 +8,9 @@ from setuptools import setup, find_packages
 
 if __name__ == "__main__":
     setup(
-        name="unicodeblocks",
+        name="justtext",
         version="1.0",
         author="huang22",
-        description="unicode blocks",
+        description="unicode text and process",
         packages=find_packages(),
     )
