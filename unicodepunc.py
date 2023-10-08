@@ -4,7 +4,7 @@
 Author  huang22
 Date    ：2023/9/28 18:25
 """
-from unicodetext import UnicodeCategories
+from unicode_categories.unicodecategories import UnicodeCategories
 
 
 def remove_punctuations(doc: str):
