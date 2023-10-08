@@ -317,6 +317,7 @@ UNICODE_BLOCKS = {
     "Supplementary Private Use Area-B": ("100000", "10FFFF"),
 }
 
+
 class EnumChrMeta(EnumMeta):
     def __getattribute__(cls, item):
         value = super().__getattribute__(item)
