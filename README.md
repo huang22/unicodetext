@@ -47,7 +47,7 @@ print (unicodetext.remove_chr(text, chrs=unicodetext.UnicodeCategories.Symbol))
 
 ## 安装
 ```shell
-pip install unicodetext==1.2 -i https://www.pypi.org/simple/
+pip install unicodetext -i https://www.pypi.org/simple/
 ```
 或者是直接拉取代码进行安装
 ```shell
