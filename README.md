@@ -44,3 +44,14 @@ import unicodetext
 text =  "i am here 237 .! 3 *。、！ +-23689068 发斯蒂芬改 23579 😄"
 print (unicodetext.remove_chr(text, chrs=unicodetext.UnicodeCategories.Symbol))
 ```
+
+## 安装
+```shell
+pip install unicodetext==1.2 -i https://www.pypi.org/simple/
+```
+或者是直接拉取代码进行安装
+```shell
+git clone https://github.com/huang22/unicodetext.git
+cd unicodetext
+pip install .
+```
