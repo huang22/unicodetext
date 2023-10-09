@@ -42,5 +42,5 @@ print (unicodetext.remove_punctuation(text, replace_str = '[del]'))
 ```python
 import unicodetext
 text =  "i am here 237 .! 3 *。、！ +-23689068 发斯蒂芬改 23579 😄"
-print (unicodetext.extract_chr(text, chrs=unicodetext.UnicodeCategories.Symbol))
+print (unicodetext.remove_chr(text, chrs=unicodetext.UnicodeCategories.Symbol))
 ```
