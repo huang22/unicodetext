@@ -11,6 +11,6 @@ if __name__ == "__main__":
         name="unicodetext",
         version="1.0",
         author="huang22",
-        description="unicode text and process",
+        description="Processing unicode text",
         packages=find_packages(),
     )

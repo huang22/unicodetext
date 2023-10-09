@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 """
+https://www.unicode.org/reports/tr44/#GC_Values_Table
+
 Author  huang22
 Date    ：2023/9/28 16:27
 """
@@ -3887,3 +3889,15 @@ class UnicodeCategories(Enum, metaclass=EnumChrMeta):
     Zp = [(8233, 8233)]
     Cs = [(55296, 57343)]
     Co = [(57344, 63743), (983040, 1048573), (1048576, 1114109)]
+    
+    def __add__(self, a, b):
+        return a + b
+
+    Letter = Lu + Ll + Lt + Lm + Lo
+    Mark = Mn + Mc + Me
+    Number = Nd + Nl + No
+    Punctuation = Pc + Pd + Ps + Pe + Pi + Pf + Po
+    Symbol = Sm + Sc + Sk + So
+    Separator = Zs + Zl + Zp
+    Other = Cc + Cf + Cs + Co + Cn
+    Cased_Letter = Lu + Ll + Lt

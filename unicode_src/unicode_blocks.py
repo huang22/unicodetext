@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: UTF-8 -*-
 """
+https://www.compart.com/en/unicode/block
+
 Author  huang22
 Date    ：2023/9/28 16:27
 """
