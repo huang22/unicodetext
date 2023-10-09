@@ -6,8 +6,8 @@ Date    ：2023/9/28 18:25
 """
 import re
 
-from unicode_src.unicode_categories import UnicodeCategories
-from unicode_src.unicode_blocks import UnicodeBlocks
+from unicodetext.unicode_categories import UnicodeCategories
+from unicodetext.unicode_blocks import UnicodeBlocks
 
 
 def extract_chr(text, chrs=None):

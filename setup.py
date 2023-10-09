@@ -9,8 +9,10 @@ from setuptools import setup, find_packages
 if __name__ == "__main__":
     setup(
         name="unicodetext",
-        version="1.0",
+        version="1.2",
         author="huang22",
+        include_package_data=True,
+        license='MIT',
         description="Processing unicode text",
         packages=find_packages(),
     )
