@@ -1,7 +1,7 @@
 # unicodetext
 Processing Unicode Text
 
-🌍 [READ THIS IN ENGLISH](README_en.md)
+🌍 [中文](README_cn.md)
 
 ## How To Use
 1. Unicode's blocks (`unicodetext.UnicodeBlocks`), which can be quickly accessed through the IDE's auto-completion feature to obtain all the characters within the block.
