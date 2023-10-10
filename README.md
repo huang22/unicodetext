@@ -47,20 +47,20 @@ print (unicodetext.remove_chr(text, chrs=unicodetext.UnicodeCategories.Symbol))
 ```
 
 ## Unicode character set
-1. unicodetext.UnicodeBlocks
-Unicode 15.1 defines [328 blocks](https://en.wikipedia.org/wiki/Unicode_block#List_of_blocks). To enable automatic code completion for block names as variables, we remove all spaces and hyphens from their names.
-2. unicodetext.UnicodeCategories
-- Letter = Lu | Ll | Lt | Lm | Lo
-- Mark = Mn | Mc | Me
-- Number = Nd | Nl | No
-- Punctuation = Pc | Pd | Ps | Pe | Pi | Pf | Po
-- Symbol = Sm | Sc | Sk | So
-- Separator = Zs | Zl | Zp
-- Other = Cc | Cf | Cs | Co | Cn
-- Cased_Letter = Lu | Ll | Lt
+### unicodetext.UnicodeBlocks
+  - Unicode 15.1 defines [328 blocks](https://en.wikipedia.org/wiki/Unicode_block#List_of_blocks). To enable automatic code completion for block names as variables, we remove all spaces and hyphens from their names.
+### unicodetext.UnicodeCategories
+  - Letter = Lu | Ll | Lt | Lm | Lo
+  - Mark = Mn | Mc | Me
+  - Number = Nd | Nl | No
+  - Punctuation = Pc | Pd | Ps | Pe | Pi | Pf | Po
+  - Symbol = Sm | Sc | Sk | So
+  - Separator = Zs | Zl | Zp
+  - Other = Cc | Cf | Cs | Co | Cn
+  - Cased_Letter = Lu | Ll | Lt
 
 | Abbr | Long                  | Description                                                        |
-|:---- |:--------------------- | ------------------------------------------------------------------ |
+|:---- |:--------------------- | :------------------------------------------------------------------ |
 | Lu   | Uppercase_Letter      | an uppercase letter                                                |
 | Ll   | Lowercase_Letter      | a lowercase letter                                                 |
 | Lt   | Titlecase_Letter      | a digraph encoded as a single character, with first part uppercase |
